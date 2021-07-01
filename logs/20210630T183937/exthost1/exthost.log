@@ -1,0 +1,101 @@
+[2021-06-30 18:39:38.952] [exthost] [info] extension host started
+[2021-06-30 18:39:39.014] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-30 18:39:39.015] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/67/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-30 18:39:39.032] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-30 18:39:39.032] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/67/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-30 18:39:39.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-30 18:39:39.035] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/67/usr/share/code/resources/app/extensions/git/dist/main
+[2021-06-30 18:39:39.085] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2021-06-30 18:39:39.085] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/holberton/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4498/out/prod/extension-prod
+[2021-06-30 18:39:39.361] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2021-06-30 18:39:39.361] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/holberton/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2021-06-30 18:39:39.631] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"extensionId":{"value":"vscode-icons-team.vscode-icons","_lower":"vscode-icons-team.vscode-icons"},"activationEvent":"*"}
+[2021-06-30 18:39:39.631] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/holberton/.vscode/extensions/vscode-icons-team.vscode-icons-11.5.0/dist/src/vscode-icons.bundle.js
+[2021-06-30 18:39:39.781] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-06-30 18:39:39.781] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/67/usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-06-30 18:39:39.923] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-30 18:39:39.923] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/67/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-06-30 18:39:40.155] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-06-30 18:39:40.156] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/67/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-06-30 18:39:48.788] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-06-30 18:39:49.003] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2021-06-30 18:39:49.003] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.y.charCodeAt.b.<computed> (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-30 18:39:49.004] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2021-06-30 18:39:49.004] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.y.charCodeAt.b.<computed> (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-30 18:39:49.005] [exthost] [error] Activating extension vscode.testing-editor-contributions failed due to an error:
+[2021-06-30 18:39:49.005] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.y.charCodeAt.b.<computed> (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-30 18:39:49.005] [exthost] [error] Activating extension esbenp.prettier-vscode failed due to an error:
+[2021-06-30 18:39:49.005] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.y.charCodeAt.b.<computed> (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-30 18:39:49.006] [exthost] [error] Activating extension ms-vscode-remote.remote-containers failed due to an error:
+[2021-06-30 18:39:49.006] [exthost] [error] Canceled: Canceled
+	at Object.s [as canceled] (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1157)
+	at d._remoteCall (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:12889)
+	at Proxy.b.<computed>.y.charCodeAt.b.<computed> (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:88:9409)
+	at m._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:11632)
+	at Object.actualActivateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:9261)
+	at l._activateExtension (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85440)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85122
+	at Array.map (<anonymous>)
+	at l._activateExtensions (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:85110)
+	at l.activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:82740)
+	at m._activateById (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:10223)
+	at m._activateOneStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15197)
+	at m._activateAllStartupFinished (/snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:15568)
+	at /snap/code/67/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:89:16057
+[2021-06-30 18:39:49.805] [exthost] [info] exiting with code 0
